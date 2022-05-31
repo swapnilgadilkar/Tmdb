@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "63286570099",
+    "project_id": "snehrishta",
+    "storage_bucket": "snehrishta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63286570099:android:180182fe45f5bbe765ce06",
+        "android_client_info": {
+          "package_name": "com.tmdb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63286570099-gaic5f47sorjj3e1hlg16lqkvcohtv31.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tmdb",
+            "certificate_hash": "e3c8229d558dadece3f12564b05c61b3fed9d4af"
+          }
+        },
+        {
+          "client_id": "63286570099-h8tvd58sdgjs8q4om623qht89eqnme9j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATcZeNwb9x_Z2WzLi9_A0SGYfbgZws3oc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63286570099-h8tvd58sdgjs8q4om623qht89eqnme9j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

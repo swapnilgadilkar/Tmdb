@@ -3,9 +3,9 @@
 #import <React/RCTBridge.h>
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
-
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <React/RCTAppSetupUtils.h>
-
+#import <Firebase.h>
 #if RCT_NEW_ARCH_ENABLED
 #import <React/CoreModulesPlugins.h>
 #import <React/RCTCxxBridgeDelegate.h>
@@ -54,6 +54,9 @@
   rootViewController.view = rootView;
   self.window.rootViewController = rootViewController;
   [self.window makeKeyAndVisible];
+  [FIRApp configure];
+  [[FBSDKApplicationDelegate sharedInstance] application:application
+                      didFinishLaunchingWithOptions:launchOptions];
   return YES;
 }
 
